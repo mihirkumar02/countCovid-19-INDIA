@@ -3,6 +3,7 @@
 https://countcovid.netlify.com
 
 This website displays the state-wise numbers for Covid-19 cases in India, along with the details on Covid-19.
+The data is updated very frequently.
 
 ## Data Source
 
