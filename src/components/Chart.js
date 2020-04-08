@@ -26,17 +26,15 @@ class Chart extends Component {
                         <div className="col-md-6">
                             <Doughnut 
                                 data={{
-                                    labels: ['Total', 'Active', 'Cured', 'Deaths'], 
+                                    labels: ['Active', 'Cured', 'Deaths'], 
                                     datasets:[{
                                         label: 'Cases',
                                         data:[
-                                            parseInt(dataChart.total),
                                             parseInt(dataChart.active),
                                             parseInt(dataChart.recovered),
                                             parseInt(dataChart.deaths)
                                           ],
                                         backgroundColor:[
-                                            'rgba(255,231,135,0.6)',
                                             'rgba(92,122,255,0.6)',
                                             'rgba(115,251,211,0.6)',
                                             'rgba(255,27,28,0.6)'
