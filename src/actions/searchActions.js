@@ -1,4 +1,4 @@
-import {SEARCH_STATE, FETCH_STATE, FETCH_ALL} from './types';
+import {SEARCH_STATE, FETCH_STATE, FETCH_ALL, CHART_DATA} from './types';
 
 import axios from 'axios';
 
@@ -35,4 +35,22 @@ export const fetchAll = () => dispatch => {
             payload: res.data.statewise
         }))
         .catch(err => console.log("Error is:" + err));
+}
+
+export const chartDataFetch = () => dispatch => {
+    axios.get("https://api.covid19india.org/data.json")
+        .then(res => {
+            res.data.statewise.forEach((term) => {
+            if(term.state === "Total") dispatch({
+                type: CHART_DATA,
+                payload: {
+                    name: term.state,
+                    active: term.active,
+                    total: term.confirmed,
+                    deaths: term.deaths,
+                    recovered: term.recovered
+                }
+            })
+        })})
+        .catch(err => console.log('Error is: ' + err));
 }

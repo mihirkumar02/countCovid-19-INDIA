@@ -9,6 +9,7 @@ import About from './components/About';
 import { Provider } from 'react-redux';
 import store from './store';
 import Search from './components/Search';
+import Chart from './components/Chart';
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
               <Route path="/search" component={Search} />
               <Route path="/statistics" component={Statistics} />  
               <Route path="/about" component={About} />  
+              <Route path="/graphs" component={Chart} />  
             </Switch>
             <Footer />
           </div>

@@ -33,7 +33,7 @@ class MapContainer extends Component {
                     width: '80vw'
                 }}
                 center={[83.088860,23.146633]}
-                zoom={[4]}
+                zoom={[3.6]}
             >
                 <Layer type="circle" id="marker" paint={{
                     'circle-color': "#ff0000",

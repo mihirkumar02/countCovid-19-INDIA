@@ -1,7 +1,7 @@
 const initialState = {
     text: '',
-    total: [],
-    all: []
+    all: [],
+    chartData:[]
 }
 
 export default function(state = initialState, action){
@@ -20,7 +20,12 @@ export default function(state = initialState, action){
             return {
                 ...state,
                 all: action.payload
-            }
+            };
+        case 'CHART_DATA':
+            return {
+                ...state,
+                chartData: action.payload
+            };
         default:
             return state;
     }

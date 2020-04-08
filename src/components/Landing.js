@@ -21,7 +21,7 @@ class Landing extends Component {
                     </div>
                     <hr />
                         {all.map((one, index) => {
-                            if(index == 0){
+                            if(index === 0){
                                     return(
                                     <div>
                                         <div className="text-right mb-4">

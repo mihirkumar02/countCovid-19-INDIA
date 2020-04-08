@@ -9,8 +9,8 @@ class Navbar extends Component {
                   <div className="container">
                         <div className="heading-center">
                             <Link to="/" className="navbar-brand text-dark text-lg bg-light brand-text">
-                                <b>Count Covid-19</b>
-                                <i className="fas fa-viruses" id="logo"/>
+                                <b className="disappear">Count Covid-19 </b>
+                                <i class='fas fa-viruses' id="logo"></i>
                             </Link>
                         </div>
                         <ul className="navbar-nav text-light d-inline-block">
@@ -22,6 +22,9 @@ class Navbar extends Component {
                             </li>
                             <li className="nav-item d-inline-block ml-3">
                                 <NavLink to="/about" className="text-dark text-lg brand-text" id="logo"><i className="fas fa-info-circle"/> About</NavLink>
+                            </li>
+                            <li className="nav-item d-inline-block ml-3">
+                                <NavLink to="/graphs" className="text-dark text-lg brand-text" id="logo"><i className="fas fa-sort-amount-up"/> Graph</NavLink>
                             </li>
                         </ul>
                     </div>
