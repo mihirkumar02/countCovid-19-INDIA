@@ -20,7 +20,7 @@ class StateCard extends Component {
                         Deaths: {stateValue.deaths}
                     </h5>
                     <h3 className="text-light card-title">
-                        Total: {stateValue.total}
+                        Total: {parseInt(stateValue.active) + parseInt(stateValue.recovered) + parseInt(stateValue.deaths)}
                     </h3>
                 </div>
             </div>
