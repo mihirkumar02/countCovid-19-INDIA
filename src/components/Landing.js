@@ -30,7 +30,7 @@ class Landing extends Component {
                                         <div className="row centered-row">
                                             <div className="col-md-3 text-center">
                                                 <h4 className="text-warning card-title weight-bold">
-                                                    Active( Ac. ): <b>{one.confirmed}</b>
+                                                    Active( Ac. ): <b>{one.active}</b>
                                                 </h4>
                                             </div>
                                             <div className="col-md-4">
@@ -45,7 +45,7 @@ class Landing extends Component {
                                             </div>
                                             <div className="col-md-2 text-center">
                                                 <h5 className="text-primary card-title weight-bold">
-                                                    Total(Tot.): <b>{parseInt(one.confirmed) + parseInt(one.recovered) + parseInt(one.deaths)}</b>
+                                                    Total(Tot.): <b>{one.confirmed}</b>
                                                 </h5> 
                                             </div>
                                         </div>

@@ -18,9 +18,10 @@ export const fetchState = text => dispatch => {
                     type: FETCH_STATE,
                     payload: {
                         name: term.state,
-                        active: term.confirmed,
+                        active: term.active,
                         deaths: term.deaths,
-                        recovered: term.recovered
+                        recovered: term.recovered,
+                        total: term.confirmed
                     }
                 })
             })})
@@ -44,9 +45,10 @@ export const chartDataFetch = () => dispatch => {
                 type: CHART_DATA,
                 payload: {
                     name: term.state,
-                    active: term.confirmed,
+                    active: term.active,
                     deaths: term.deaths,
-                    recovered: term.recovered
+                    recovered: term.recovered,
+                    total: term.confirmed
                 }
             })
         })})

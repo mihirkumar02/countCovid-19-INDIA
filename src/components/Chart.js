@@ -52,7 +52,7 @@ class Chart extends Component {
                                     datasets:[{
                                         label: 'Cases',
                                         data:[
-                                            parseInt(dataChart.active)+parseInt(dataChart.recovered)+parseInt(dataChart.deaths),
+                                            parseInt(dataChart.total),
                                             parseInt(dataChart.active),
                                             parseInt(dataChart.recovered),
                                             parseInt(dataChart.deaths)

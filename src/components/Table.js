@@ -31,10 +31,10 @@ class Table extends Component {
                                     return (
                                         <tr key={index}>
                                             <td className="text-center">{one.state}</td>
-                                            <td className="text-warning"><b>{one.confirmed}</b></td>
+                                            <td className="text-warning"><b>{one.active}</b></td>
                                             <td className="text-success"><b>{one.recovered}</b></td>
                                             <td className="text-danger"><b>{one.deaths}</b></td>
-                                            <td className="text-primary"><b>{parseInt(one.confirmed) + parseInt(one.recovered) + parseInt(one.deaths)}</b></td>
+                                            <td className="text-primary"><b>{one.confirmed}</b></td>
                                         </tr>
                                     )
                                 }
