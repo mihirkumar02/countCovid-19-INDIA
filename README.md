@@ -31,8 +31,28 @@ The sole purpose of making this website was to help the people of India in reali
  
  - About section, which answers common questions related to the Covid-19 disease.
  
- - More coming soon!
+ - The list will grow soon!
  
+
+## How to run the website on your local machine?
+
+Clone the repo on your machine by typing
+
+`git clone https://github.com/mihirkumar02/countCovid-19-INDIA/customFolderName`
+
+Next, open the folder in a code editor (I recommend VS Code) and open the same in the CLI, then type:
+
+```
+npm install
+npm start
+```
+
+The browser should start automatically at localhost:3000.
+
+Great! Now you can explore the project and dive into the React components and the API.
+
+HAVE FUN!
+
  ## Reach Out!
  
- Feel free to create pull request(s) if you find a feature which can be added or improved. Collaboration is always welcome! 
+ Feel free to create pull request(s) if you find a feature which can be added or improved. Collaborations are always welcome! :smile: 
