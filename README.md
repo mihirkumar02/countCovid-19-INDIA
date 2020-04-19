@@ -3,7 +3,7 @@
 This website displays the state-wise numbers for Covid-19 cases in India, along with the details on Covid-19.
 The latest data is displayed and is updated very frequently.
 
-[Covid-19 Counter | INDIA](https://covidcounter.netlify.com)
+[Covid-19 Counter | INDIA](https://countcovid.netlify.com)
 
 ## Data Source
 
@@ -18,10 +18,10 @@ The sole purpose of making this website was to help the people of India in reali
 
 ## The features
  - Tabular view of state-wise data with the following columns:
-  - Active denotes the currently ACTIVE cases.
-  - Discharged/Migrated denotes the DISCHARGED/MIGRATED counts.
-  - Deaths denotes the sadly DECEASED counts.
-  - Total denotes the TOTAL of the above three columns' data.
+   - Active denotes the currently ACTIVE cases.
+   - Discharged/Migrated denotes the DISCHARGED/MIGRATED counts.
+   - Deaths denotes the sadly DECEASED counts.
+   - Total denotes the TOTAL of the above three columns' data.
   
  - Map-wise display of data in each state of India.
  
