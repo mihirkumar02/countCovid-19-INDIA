@@ -38,7 +38,7 @@ The sole purpose of making this website was to help the people of India in reali
 
 Clone the repo on your machine by typing
 
-`git clone https://github.com/mihirkumar02/countCovid-19-INDIA/customFolderName`
+`git clone https://github.com/mihirkumar02/countCovid-19-INDIA.git`
 
 Next, open the folder in a code editor (I recommend VS Code) and open the same in the CLI, then type:
 
